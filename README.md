@@ -6,6 +6,13 @@
 
 Welcome to the Real-time BISINDO (Bahasa Isyarat Indonesia) Classification project! In this project, I built a machine learning model to classify the BISINDO alphabet in real-time using hand landmarks detection. I used the mediapipe library to extract hand landmarks from the images and trained a Random Forest model to classify the alphabet.
 
+
+## 💡 Demo
+
+You can check out the demo of the project on Streamlit [Here]((https://realtime-bisindo-classification.streamlit.app/))
+
+[https://realtime-bisindo-classification.streamlit.app/](https://realtime-bisindo-classification.streamlit.app/)
+
 ## 🎯 Objective
 
 The objective of this project is to classify the BISINDO (Bahasa Isyarat Indonesia) alphabet in real-time using hand landmarks detection and machine learning.
