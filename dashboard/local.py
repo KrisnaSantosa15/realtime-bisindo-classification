@@ -49,7 +49,6 @@ def main():
     if 'camera' not in st.session_state:
         st.session_state.camera = None
 
-    # Sidebar settings
     st.sidebar.header('Choose a Model (My Future Work)')
     model = st.sidebar.selectbox(
         'Select Model', ['RF_BISINDO_99'], disabled=True)

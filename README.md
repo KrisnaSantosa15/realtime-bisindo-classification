@@ -13,6 +13,10 @@ You can check out the demo of the project on Streamlit [Here]((https://realtime-
 
 [https://realtime-bisindo-classification.streamlit.app/](https://realtime-bisindo-classification.streamlit.app/)
 
+But streamlit is not supported for real-time video, so you can run the project locally to see the real-time classification. As an alternative, you can upload an image to classify the BISINDO alphabet.
+
+![Demo](images/static.png)
+
 ## 🎯 Objective
 
 The objective of this project is to classify the BISINDO (Bahasa Isyarat Indonesia) alphabet in real-time using hand landmarks detection and machine learning.
@@ -97,6 +101,8 @@ Here are some ideas for future work:
    ```
 
 3. Run the Jupyter notebook
+
+4. Run `streamlit run dashboard/dashboard.py` to run the Streamlit dashboard
 
 ## 🤝 Contribute
 

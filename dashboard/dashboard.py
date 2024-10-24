@@ -11,7 +11,6 @@ warnings.filterwarnings("ignore")
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
-# Configure OpenCV settings for cloud deployment
 os.environ['OPENCV_VIDEOIO_PRIORITY_MSMF'] = '0'
 
 mp_hands = mp.solutions.hands
@@ -47,7 +46,6 @@ def initialize_camera():
             st.warning(
                 "⚠️ Running in cloud environment. Camera access might be limited.")
 
-        # Try different camera indices
         for index in [0, 1]:
             cap = cv2.VideoCapture(index)
             if cap.isOpened():
@@ -118,7 +116,6 @@ def main():
         st.error(f"❌ Error loading model: {str(e)}")
         return
 
-    # Camera controls
     run = st.checkbox('Start Webcam')
     FRAME_WINDOW = st.image([])
     prediction_text = st.empty()
