@@ -1,9 +1,7 @@
 streamlit
-opencv-python-headless
+opencv-python
 mediapipe
 numpy
 pandas
 joblib
 scikit-learn
-flask
-flask-cors
